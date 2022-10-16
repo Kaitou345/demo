@@ -1,0 +1,13 @@
+.container {
+  width: clamp(10rem, 10vw, 15rem);
+  display: inline-flex;
+  flex-direction: column;
+  gap:1.3rem;
+  margin: 2rem;
+}
+
+.subtext {
+  text-align: center;
+  font-size: 20px;
+  font-weight: var(--weight-normal);
+}

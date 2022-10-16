@@ -1,0 +1,30 @@
+.container {
+  width: clamp(15rem, 17vw, 20rem);
+  display: inline-block;
+  cursor: pointer;
+}
+
+.art_container {
+  border: 10px black solid;
+  margin-bottom: 1rem;
+}
+
+.art {
+  object-fit: contain;
+  width: 100%;
+}
+
+
+.sub_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.subtitle {
+  font-size: 16px;
+  font-weight: var(--weight-light);
+}
+.price {
+  font-size: var(--text-normal);
+  font-weight: var(--weight-bold);
+}
