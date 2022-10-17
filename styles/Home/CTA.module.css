@@ -1,9 +1,9 @@
 .container {
   background-origin: content-box;
 
-  padding: 8rem 0rem;
   isolation: isolate;
   position: relative;
+  padding: 8rem 0rem;
   /* background: url("/cta_bg.svg") no-repeat center center; */
   background-color: white;
   background-size: cover;
@@ -20,7 +20,7 @@
 }
 
 .text {
-  font-size: clamp(1.5rem, 6vw, 3rem);
+  font-size: clamp(1.5rem, 3vw, 2rem);
   font-weight: 600;
   color: var(--clr-text-muted);
   line-height: 1.4;
