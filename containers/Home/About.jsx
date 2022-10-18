@@ -9,7 +9,7 @@ const About = () => {
       </div>
       <div className={styles.about_text}>
         <h6>About</h6>
-        <h1>ZOOEGALLERY</h1>
+        <h1>ZOEEGALLERY</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

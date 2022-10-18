@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Zooe Gallery</title>
+        <title>ZoeeGallery</title>
         <meta name="description" content="Lorem Ipsum Dolor Amet" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

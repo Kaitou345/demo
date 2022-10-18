@@ -41,7 +41,7 @@ const Footer = () => {
       <div className={styles.border} />
       <div className={styles.lower}>
         <div className={styles.copyright}>
-          © {new Date().getFullYear()} ZOOEGALLERY. All rights reserved.
+          © {new Date().getFullYear()} ZOEEGALLERY. All rights reserved.
         </div>
         <div>
           <Logo />
