@@ -31,16 +31,16 @@ const Footer = () => {
           </Link>
         </div>
         <div className={styles.social_links}>
-          <a href={pinterestLink} target="_blank">
+          <a href={pinterestLink} target="_blank" rel="noreferrer">
             <BsPinterest />
           </a>
-          <a href={instagramLink} target="_blank">
+          <a href={instagramLink} target="_blank" rel="noreferrer">
             <RiInstagramFill />
           </a>
-          <a href={facebookLink} target="_blank">
+          <a href={facebookLink} target="_blank" rel="noreferrer">
             <FaFacebookSquare />
           </a>
-          <a href={youtubeLink} target="_blank">
+          <a href={youtubeLink} target="_blank" rel="noreferrer">
             <BsYoutube />
           </a>
         </div>
