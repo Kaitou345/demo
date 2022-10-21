@@ -41,8 +41,9 @@
   line-height: 2.3;
 }
 .aboutImg {
-  max-height: 100%;
-  object-fit: contain;
+  position: relative;
+  width: 800px;
+  aspect-ratio: 1.25;
 }
 
 .aboutImg_container {

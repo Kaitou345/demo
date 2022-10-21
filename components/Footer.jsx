@@ -2,8 +2,15 @@ import React from "react";
 import styles from "../styles/Home/Footer.module.css";
 import Logo from "./Logo";
 import { FaFacebookSquare } from "react-icons/fa";
-import { BsTwitter, BsVimeo, BsYoutube } from "react-icons/bs";
+import { BsYoutube, BsPinterest } from "react-icons/bs";
+import { RiInstagramFill } from "react-icons/ri";
 import Link from "next/link";
+import {
+  facebookLink,
+  instagramLink,
+  pinterestLink,
+  youtubeLink,
+} from "../constants/ social_links";
 
 const Footer = () => {
   return (
@@ -24,16 +31,16 @@ const Footer = () => {
           </Link>
         </div>
         <div className={styles.social_links}>
-          <a href="">
+          <a href={pinterestLink} target="_blank">
+            <BsPinterest />
+          </a>
+          <a href={instagramLink} target="_blank">
+            <RiInstagramFill />
+          </a>
+          <a href={facebookLink} target="_blank">
             <FaFacebookSquare />
           </a>
-          <a href="">
-            <BsTwitter />
-          </a>
-          <a href="">
-            <BsVimeo />
-          </a>
-          <a href="">
+          <a href={youtubeLink} target="_blank">
             <BsYoutube />
           </a>
         </div>
