@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 :root {
-	--clr-text-primary: #424242;
+	--clr-text-primary: rgb(66, 66, 66);
 	--clr-text-muted: #7B776C;
 	--clr-text-muted-extra: #8E8E8E;
 
@@ -46,7 +46,7 @@ time, mark, audio, video {
 	font-size: 100%;
   font-family: 'Poppins', sans-serif;
 	vertical-align: baseline;
-	background-color: rgb(255, 188, 188);
+	background: #F5F5F5;
 	box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
