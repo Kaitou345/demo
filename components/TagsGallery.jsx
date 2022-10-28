@@ -67,16 +67,6 @@ const TagsGallery = () => {
           margin: "2rem",
         }}
       />
-      <Post
-        imgSrc={"/art.png"}
-        desc="nice"
-        id={1}
-        title="Hummingbird"
-        price="$12.99"
-        style={{
-          margin: "2rem",
-        }}
-      />
     </div>
   );
 };
