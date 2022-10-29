@@ -42,6 +42,16 @@
   color: #424242;
 }
 
+/* .selected_btn::before {
+  content: '';
+  position: absolute;
+  bottom: -40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-bottom: 2px solid currentColor;
+  width: 80%;
+} */
+
 .selected_btn::before {
   content: '';
   position: absolute;
@@ -50,5 +60,14 @@
   transform: translate(-50%, -50%);
   border-bottom: 2px solid currentColor;
   width: 80%;
+  animation: lined 100ms ease-in-out;
 }
 
+@keyframes lined {
+  0% {
+    width: 10%
+  }
+  100% {
+    width: 80%;
+  }
+}
