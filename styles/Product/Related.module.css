@@ -1,0 +1,15 @@
+.container {
+  margin-top: 100px;
+  margin-bottom: 150px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  justify-content: space-between;
+}
+
+.container h1 {
+  color: var(--clr-text-primary);
+  font-size: 38px;
+  text-align: center;
+}
