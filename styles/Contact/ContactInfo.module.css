@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   gap: 7rem;
-  /* margin-left: clamp(120px, 12vw, 300px);; */
   background-color: transparent;
   overflow: hidden;
 
