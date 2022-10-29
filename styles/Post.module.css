@@ -1,12 +1,14 @@
 .container {
-  width: clamp(15rem, 17vw, 20rem);
+  width: clamp(15rem, 20vw, 25rem);
   cursor: pointer;
   transition: all 300ms ease-in-out;
 }
 
 .container:hover {
-  transform: scale(1.1);
+  transform: scale(0.98);
   transition: all 300ms ease-in-out;
+  opacity: 0.8;
+
 }
 
 .art_container {
