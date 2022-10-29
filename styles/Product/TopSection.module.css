@@ -25,6 +25,7 @@
 
 .desc h2 {
   font-size: 28px;
+  line-height: 1.6;
 }
 
 .desc button {
@@ -58,4 +59,10 @@
 
 .value {
   font-size: 20px;
+}
+
+@media (max-width:1000px) {
+  .container {
+    flex-direction: column;
+  }
 }
