@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "../../styles/Products/Filters.module.css";
-const Filters = () => {
+const Filters = ({ className }) => {
   return (
-    <div className={styles.container}>
+    <div className={`${styles.container} ${className}`}>
       <div className={styles.category}>
         <h1>Category</h1>
         <hr align="left" />

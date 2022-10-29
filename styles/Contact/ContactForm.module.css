@@ -3,8 +3,7 @@
 }
 
 .form {
-  margin-right: 10rem;
-  width: 30vw;
+  width: clamp(400px, 30vw,700px);
   display: flex;
   gap: 2rem;
   flex-direction: column;
@@ -20,6 +19,7 @@
   color: rgba(66, 66, 66, 0.8);
   font-weight: var(--weight-normal);
   font-size: var(--text-normal);
+  line-height: 1.6;
 }
 .form form {
   display: contents;
@@ -64,4 +64,13 @@
   font-size: 16px;
   cursor: pointer;
 
+}
+
+@media (max-width: 1100px) {
+  .form {
+    margin: 0;
+    width: 80vw;
+    padding: 5px 20px;
+  }
+  
 }

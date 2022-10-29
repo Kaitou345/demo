@@ -1,6 +1,5 @@
 .container {
   width: clamp(15rem, 17vw, 20rem);
-  display: inline-block;
   cursor: pointer;
   transition: all 300ms ease-in-out;
 }

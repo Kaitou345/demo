@@ -1,41 +1,19 @@
 .container {
-  display: grid;
-  height: 100vh;
-  grid-template-columns: 1fr 1fr;
-  padding-top: 15vh; 
-  margin-bottom: 5vh; 
+  display: flex;
+  padding-top: 20vh; 
+  padding-bottom: 30vh; 
   position: relative;
   background-color: transparent;
   isolation: isolate;
-}
-
-.bg {
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  position: absolute; 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  top: 0
-}
-
-.bg_left {
-  width: 40vw;
-  object-fit: cover;
-  display: inline-block;
-}
-
-
-.bg_right {
-  width: 40vw;
-  object-fit: cover;
-  display: inline-block;
-
+  justify-content: center;
+  gap: 10rem;
 }
 
 @media only screen and (max-width: 1100px) {
-  .bg {
-    display: none;
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
+
 }
