@@ -8,7 +8,7 @@ const TagsGallery = () => {
   return (
     <div className={styles.container}>
       <Post
-        imgSrc={"/art.png"}
+        src={"/art.png"}
         desc="nice"
         id={1}
         title="Hummingbird"
@@ -18,7 +18,7 @@ const TagsGallery = () => {
         }}
       />
       <Post
-        imgSrc={"/art2.png"}
+        src={"/art2.png"}
         desc="nice"
         id={1}
         title="Hummingbird"
@@ -28,7 +28,7 @@ const TagsGallery = () => {
         }}
       />
       <Post
-        imgSrc={"/art3.png"}
+        src={"/art3.png"}
         desc="nice"
         id={1}
         title="Hummingbird"
@@ -38,7 +38,7 @@ const TagsGallery = () => {
         }}
       />
       <Post
-        imgSrc={"/art4.png"}
+        src={"/art4.png"}
         desc="nice"
         id={1}
         title="Hummingbird"
@@ -48,7 +48,7 @@ const TagsGallery = () => {
         }}
       />
       <Post
-        imgSrc={"/art5.png"}
+        src={"/art5.png"}
         desc="nice"
         id={1}
         title="Hummingbird"
@@ -58,7 +58,7 @@ const TagsGallery = () => {
         }}
       />
       <Post
-        imgSrc={"/art6.png"}
+        src={"/art6.png"}
         desc="nice"
         id={1}
         title="Hummingbird"

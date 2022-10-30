@@ -7,6 +7,10 @@
 .container:hover {
   transform: scale(0.98);
   transition: all 300ms ease-in-out;
+  
+}
+
+.container:hover > * {
   opacity: 0.8;
 
 }
@@ -35,8 +39,50 @@
 .subtitle {
   font-size: 16px;
   font-weight: var(--weight-light);
+  color: var(--clr-text-primary);
 }
 .price {
+  color: var(--clr-text-primary);
   font-size: var(--text-normal);
   font-weight: var(--weight-bold);
 }
+
+.id_span {
+  color: var(--clr-text-primary);
+  font-size: 16px;
+  margin-right: 1rem;
+}
+
+.copy_icon {
+  transform: scale(1.1);
+  position: relative;
+  top: 3px
+}
+
+.copy_icon::after {
+  content: attr(custom-tooltip);
+  position: absolute;
+  background: black;
+  color: white;
+}
+
+.id_container {
+  position: relative;
+}
+
+.id_container:hover:after {
+  content: attr(data-content);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: var(--clr-text-primary);
+  position: absolute;
+  padding: 10px;
+
+  top: -40px;
+  left: 0;
+  border-radius: 10px;
+  opacity: 1;
+}
+

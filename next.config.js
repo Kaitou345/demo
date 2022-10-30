@@ -2,6 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
 
-module.exports = nextConfig
+  images: {
+    domains: ["powerful-crag-03533.herokuapp.com"],
+  },
+};
+
+module.exports = nextConfig;

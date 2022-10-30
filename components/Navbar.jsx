@@ -30,10 +30,6 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, [scrollTop]);
 
-  useEffect(() => {
-    console.log(scrollTop);
-  }, [scrollTop]);
-
   const toggleNavbar = () => {
     setShowNav((prev) => !prev);
   };
