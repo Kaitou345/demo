@@ -13,7 +13,7 @@
 	--clr-bg-nav-scroll: #fff;
 
 
-	--text-heading-large: clamp(2rem, 4vw, 5rem);;
+	--text-heading-large: clamp(5rem, 4vw, 5rem);;
 	--text-heading: clamp(2rem, 3.5vw, 4rem);;
 	--text-normal: 18px;
 

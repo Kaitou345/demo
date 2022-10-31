@@ -5,15 +5,10 @@
 }
 
 .container:hover {
-  transform: scale(0.98);
+  transform: scale(1.05);
   transition: all 300ms ease-in-out;
-  
 }
 
-.container:hover > * {
-  opacity: 0.8;
-
-}
 
 .art_container {
   height: auto;

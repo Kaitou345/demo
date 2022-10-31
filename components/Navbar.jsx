@@ -78,6 +78,14 @@ const Navbar = () => {
           </NavLink>
           <NavLink
             activeClassName={styles.active}
+            href="/about"
+            className={`${styles.link}`}
+            onClick={hideNav}
+          >
+            About
+          </NavLink>
+          <NavLink
+            activeClassName={styles.active}
             href="/products"
             className={`${styles.link}`}
             onClick={hideNav}
@@ -90,15 +98,7 @@ const Navbar = () => {
             className={`${styles.link}`}
             onClick={hideNav}
           >
-            Contact us
-          </NavLink>
-          <NavLink
-            activeClassName={styles.active}
-            href="/about"
-            className={`${styles.link}`}
-            onClick={hideNav}
-          >
-            About us
+            Contact me
           </NavLink>
         </nav>
 

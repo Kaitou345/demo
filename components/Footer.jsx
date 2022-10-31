@@ -20,14 +20,15 @@ const Footer = () => {
           <Link href="/">
             <a className={styles.footer_link}>Home</a>
           </Link>
+
+          <Link href="/about">
+            <a className={styles.footer_link}>About</a>
+          </Link>
           <Link href="/products">
             <a className={styles.footer_link}>Product</a>
           </Link>
-          <Link href="/about">
-            <a className={styles.footer_link}>About us</a>
-          </Link>
           <Link href="/contact">
-            <a className={styles.footer_link}>Contact us</a>
+            <a className={styles.footer_link}>Contact me</a>
           </Link>
         </div>
         <div className={styles.social_links}>
