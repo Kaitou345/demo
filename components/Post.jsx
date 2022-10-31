@@ -14,7 +14,7 @@ const Post = ({ src, title, price, desc, id, style }) => {
     setTimeout(() => setCopied(false), 2000);
   };
   return (
-    <Link href={`/products/${id}`}>
+    <Link href={id == null ? "" : `/products/${id}`}>
       <div className={styles.container} style={style}>
         <div className={styles.art_container}>
           <div className={styles.art}>

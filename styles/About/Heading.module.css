@@ -1,0 +1,133 @@
+.container {
+  display: grid;
+  place-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: var(--clr-bg-primary);
+}
+
+.container * {
+  background-color: transparent;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+
+  gap: 2rem;
+  position: relative;
+  top: -150px;
+  text-align: right;
+}
+
+.title {
+  font-weight: 700;
+  font-size: var(--text-heading-large);
+  color: var(--clr-text-primary);
+  line-height: 1.5;
+
+}
+
+.subtitle {
+  color: var(--clr-text-primary);
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  font-size: 20px;
+}
+
+.mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.image {
+  width: 23vw;
+  aspect-ratio: 0.69;
+  position: relative;
+  object-fit: cover;
+
+  border: 15px white solid;
+  margin-bottom: 1rem;
+  outline: 15px black solid;;
+}
+
+.socials {
+  margin-top: 80px;
+  width: 23vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30px;
+  gap: 1rem;
+}
+
+.social p {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.social h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.icon {
+  font-size: clamp(1px, 3vw, 50px);
+}
+.insta {
+  font-size: clamp(1px, 4.5vw, 50px);
+}
+.desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  gap: 2rem;
+  line-height: 2;
+  width: max(23rem, 23vw);
+  color: var(--clr-text-primary);
+  font-size: 20px;
+  word-spacing: 7px;
+}
+
+.margin {
+  width: 72px;
+  height: 2px;
+  background: var(--clr-text-primary);
+  border-radius: 1px;
+  font-weight: var(--weight-light);
+}
+
+@media (max-width: 1366px) {
+  .container {
+    grid-template-columns: unset;
+    place-content: center;
+    gap: 3rem;
+  }
+
+  .left {
+    align-items: center;
+    text-align: center;
+    top:unset;
+  }
+  .mid {}
+  .desc {
+    
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+}

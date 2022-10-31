@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 :root {
 	--clr-text-primary: rgb(66, 66, 66);
@@ -13,6 +13,7 @@
 	--clr-bg-nav-scroll: #fff;
 
 
+	--text-heading-large: clamp(2rem, 4vw, 5rem);;
 	--text-heading: clamp(2rem, 3.5vw, 4rem);;
 	--text-normal: 18px;
 
