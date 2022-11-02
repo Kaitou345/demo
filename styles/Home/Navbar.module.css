@@ -51,7 +51,7 @@
 .active::before {
   content: '';
   position: absolute;
-  bottom: -40%;
+  bottom: -42%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-bottom: 2px solid currentColor;
@@ -132,5 +132,8 @@
   }
   .container {
     align-items: flex-start;
+  }
+  .active::before {
+    width: 50%;
   }
 }

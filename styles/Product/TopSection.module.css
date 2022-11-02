@@ -7,7 +7,7 @@
 
 .image {
   position: relative;
-  width: max(250px,30vw);
+  width: max(300px,30vw);
   aspect-ratio: 0.85;
   object-fit: cover;
 }

@@ -3,3 +3,9 @@
   padding-left: 10vw;
   padding-right: 10vw;
 }
+
+@media (max-width: 1000px) {
+  .container {
+    padding-top: 15vh;
+  }
+}

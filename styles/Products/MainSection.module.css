@@ -51,19 +51,24 @@
   margin-left: 2rem;
   border: none;
   cursor: pointer;
-  color:rgba(66, 66, 66, .8)
+  color:rgba(66, 66, 66, 1);
+  font-size: 18px;
+  font-weight: 600;
 }
 
 
 @media (max-width: 600px) {
   .heading{
-    gap: 2rem;
+    gap: 3rem;
     flex-direction: column;
   }
-  .heading select {
-    margin-top: 2rem;
+  .sort_heading {
+    margin-right: 1rem
   }
-
+  .heading select {
+    width: 150px;
+    height: 40px;
+  }
   .filter_container {
 
     display: flex;
@@ -71,5 +76,6 @@
     align-items: flex-start;
     justify-content: space-around;
     gap: 2rem;
+    margin-bottom: 2rem;
   }
 }

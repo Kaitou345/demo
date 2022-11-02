@@ -39,3 +39,24 @@
   padding-left: 40px;
   padding-right: 40px;
 }
+
+@media (max-width:1000px) {
+  .container {
+    gap: .7rem;
+
+  }
+  .container p {
+
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .container h2 {
+
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+}

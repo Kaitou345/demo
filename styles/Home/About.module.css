@@ -67,7 +67,7 @@
   }
   .aboutImg_container {
     width: 100%;
-    height: 50vh;
+    height: 30vh;
     object-fit: contain;
     display: flex;
     justify-content: center;
