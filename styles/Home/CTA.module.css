@@ -56,7 +56,7 @@
 }
 .img_container {
   display: flex;
-  gap: 5rem;
+  gap: 0rem;
 }
 .img_row_1 {
   position: relative;

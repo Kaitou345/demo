@@ -1,5 +1,5 @@
 .container {
-  width: clamp(10rem, 10vw, 15rem);
+  width: clamp(10rem, 15vw, 100rem);
   display: inline-flex;
   flex-direction: column;
   align-items: center;
