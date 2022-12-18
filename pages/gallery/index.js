@@ -9,7 +9,7 @@ import Head from "next/head";
 import { useSelector } from "react-redux";
 import { BDT, USD } from "../../constants/currency";
 
-const products = ({ posts }) => {
+const Products = ({ posts }) => {
   const [postsWithFilter, setPostsWithFilter] = useState(posts);
   const [category, setCategory] = useState(All);
   const [tag, setTag] = useState("");
@@ -107,4 +107,4 @@ export async function getServerSideProps(ctx) {
   };
 }
 
-export default products;
+export default Products;
