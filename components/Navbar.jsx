@@ -1,20 +1,20 @@
 import React, { useRef, useState, useEffect } from "react";
-
 import Link from "next/link";
 import { useRouter } from "next/router";
-
 import { BDT, USD } from "../constants/currency.js";
-
 import Logo from "../components/Logo";
 import styles from "../styles/Home/Navbar.module.css";
-
 import { GiHamburgerMenu } from "react-icons/gi";
 import { GrClose } from "react-icons/gr";
-
 import NavLink from "./NavLink.jsx";
+import { useSelector } from "react-redux";
+import { changeRegion } from "../store/regionSlice.js";
+import { useDispatch } from "react-redux";
 
 const Navbar = () => {
   const router = useRouter();
+  const dispatch = useDispatch();
+  const region = useSelector((state) => state.currency);
 
   const [showNav, setShowNav] = useState(false);
   const [hide, setHide] = useState(`${styles.hide}`);
@@ -86,11 +86,11 @@ const Navbar = () => {
           </NavLink>
           <NavLink
             activeClassName={styles.active}
-            href="/products"
+            href="/gallery"
             className={`${styles.link}`}
             onClick={hideNav}
           >
-            Product
+            Gallery
           </NavLink>
           <NavLink
             activeClassName={styles.active}
@@ -107,6 +107,7 @@ const Navbar = () => {
             name="currency"
             id="currency"
             className={`${styles.link} ${styles.currency}`}
+            onChange={(e) => dispatch(changeRegion(e.target.value))}
           >
             <option value={USD}>USD</option>
             <option value={BDT}>BDT</option>

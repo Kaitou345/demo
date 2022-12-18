@@ -3,70 +3,31 @@ import Post from "./Post";
 import styles from "../styles/Home/Gallery.module.css";
 import Link from "next/link";
 import Image from "next/image";
+import { useSelector } from "react-redux";
+import { BDT, USD } from "../constants/currency";
+import { imageApi } from "../api/api";
 
-const TagsGallery = () => {
+const TagsGallery = ({ posts }) => {
+  const { currency } = useSelector((state) => state.region);
   return (
     <div className={styles.container}>
-      <Post
-        src={"/art.png"}
-        desc="nice"
-        id={1}
-        title="Hummingbird"
-        price="$12.99"
-        style={{
-          margin: "2rem",
-        }}
-      />
-      <Post
-        src={"/art2.png"}
-        desc="nice"
-        id={1}
-        title="Hummingbird"
-        price="$12.99"
-        style={{
-          margin: "2rem",
-        }}
-      />
-      <Post
-        src={"/art3.png"}
-        desc="nice"
-        id={1}
-        title="Hummingbird"
-        price="$12.99"
-        style={{
-          margin: "2rem",
-        }}
-      />
-      <Post
-        src={"/art4.png"}
-        desc="nice"
-        id={1}
-        title="Hummingbird"
-        price="$12.99"
-        style={{
-          margin: "2rem",
-        }}
-      />
-      <Post
-        src={"/art5.png"}
-        desc="nice"
-        id={1}
-        title="Hummingbird"
-        price="$12.99"
-        style={{
-          margin: "2rem",
-        }}
-      />
-      <Post
-        src={"/art6.png"}
-        desc="nice"
-        id={1}
-        title="Hummingbird"
-        price="$12.99"
-        style={{
-          margin: "2rem",
-        }}
-      />
+      {posts.map((post, i) => (
+        <Post
+          src={post.attributes.art.data.attributes.url}
+          desc="nice"
+          id={post.id}
+          key={post.id}
+          title={post.attributes.title}
+          price={
+            currency === USD
+              ? `$ ${post.attributes.usd_price}`
+              : `৳ ${post.attributes.bdt_price}`
+          }
+          style={{
+            margin: "2rem",
+          }}
+        />
+      ))}
     </div>
   );
 };

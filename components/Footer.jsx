@@ -25,7 +25,7 @@ const Footer = () => {
             <a className={styles.footer_link}>About</a>
           </Link>
           <Link href="/products">
-            <a className={styles.footer_link}>Product</a>
+            <a className={styles.footer_link}>Gallery</a>
           </Link>
           <Link href="/contact">
             <a className={styles.footer_link}>Contact me</a>

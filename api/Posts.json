@@ -1,0 +1,356 @@
+{
+  "data": [
+    {
+      "id": 3,
+      "attributes": {
+        "title": "FFFF",
+        "usd_price": 5,
+        "bdt_price": 500,
+        "art": {
+          "data": {
+            "id": 3,
+            "attributes": {
+              "name": "art3.png",
+              "alternativeText": "art3.png",
+              "caption": "art3.png",
+              "width": 354,
+              "height": 447,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/uploads/thumbnail_art3_73b88d5f4f.png",
+                  "hash": "thumbnail_art3_73b88d5f4f",
+                  "mime": "image/png",
+                  "name": "thumbnail_art3.png",
+                  "path": null,
+                  "size": 58.75,
+                  "width": 124,
+                  "height": 156
+                }
+              },
+              "hash": "art3_73b88d5f4f",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 374.79,
+              "url": "/uploads/art3_73b88d5f4f.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-10-30T12:37:12.951Z",
+              "updatedAt": "2022-10-30T12:37:12.951Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "title": "FFFF",
+        "usd_price": 5,
+        "bdt_price": 500,
+        "art": {
+          "data": {
+            "id": 3,
+            "attributes": {
+              "name": "art3.png",
+              "alternativeText": "art3.png",
+              "caption": "art3.png",
+              "width": 354,
+              "height": 447,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/uploads/thumbnail_art3_73b88d5f4f.png",
+                  "hash": "thumbnail_art3_73b88d5f4f",
+                  "mime": "image/png",
+                  "name": "thumbnail_art3.png",
+                  "path": null,
+                  "size": 58.75,
+                  "width": 124,
+                  "height": 156
+                }
+              },
+              "hash": "art3_73b88d5f4f",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 374.79,
+              "url": "/uploads/art3_73b88d5f4f.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-10-30T12:37:12.951Z",
+              "updatedAt": "2022-10-30T12:37:12.951Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "title": "FFFF",
+        "usd_price": 5,
+        "bdt_price": 500,
+        "art": {
+          "data": {
+            "id": 3,
+            "attributes": {
+              "name": "art3.png",
+              "alternativeText": "art3.png",
+              "caption": "art3.png",
+              "width": 354,
+              "height": 447,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/uploads/thumbnail_art3_73b88d5f4f.png",
+                  "hash": "thumbnail_art3_73b88d5f4f",
+                  "mime": "image/png",
+                  "name": "thumbnail_art3.png",
+                  "path": null,
+                  "size": 58.75,
+                  "width": 124,
+                  "height": 156
+                }
+              },
+              "hash": "art3_73b88d5f4f",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 374.79,
+              "url": "/uploads/art3_73b88d5f4f.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-10-30T12:37:12.951Z",
+              "updatedAt": "2022-10-30T12:37:12.951Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 6,
+      "attributes": {
+        "title": "FFFF",
+        "usd_price": 5,
+        "bdt_price": 500,
+        "art": {
+          "data": {
+            "id": 3,
+            "attributes": {
+              "name": "art3.png",
+              "alternativeText": "art3.png",
+              "caption": "art3.png",
+              "width": 354,
+              "height": 447,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/uploads/thumbnail_art3_73b88d5f4f.png",
+                  "hash": "thumbnail_art3_73b88d5f4f",
+                  "mime": "image/png",
+                  "name": "thumbnail_art3.png",
+                  "path": null,
+                  "size": 58.75,
+                  "width": 124,
+                  "height": 156
+                }
+              },
+              "hash": "art3_73b88d5f4f",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 374.79,
+              "url": "/uploads/art3_73b88d5f4f.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-10-30T12:37:12.951Z",
+              "updatedAt": "2022-10-30T12:37:12.951Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 7,
+      "attributes": {
+        "title": "FFFF",
+        "usd_price": 5,
+        "bdt_price": 500,
+        "art": {
+          "data": {
+            "id": 3,
+            "attributes": {
+              "name": "art3.png",
+              "alternativeText": "art3.png",
+              "caption": "art3.png",
+              "width": 354,
+              "height": 447,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/uploads/thumbnail_art3_73b88d5f4f.png",
+                  "hash": "thumbnail_art3_73b88d5f4f",
+                  "mime": "image/png",
+                  "name": "thumbnail_art3.png",
+                  "path": null,
+                  "size": 58.75,
+                  "width": 124,
+                  "height": 156
+                }
+              },
+              "hash": "art3_73b88d5f4f",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 374.79,
+              "url": "/uploads/art3_73b88d5f4f.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-10-30T12:37:12.951Z",
+              "updatedAt": "2022-10-30T12:37:12.951Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 8,
+      "attributes": {
+        "title": "FFFF",
+        "usd_price": 5,
+        "bdt_price": 500,
+        "art": {
+          "data": {
+            "id": 3,
+            "attributes": {
+              "name": "art3.png",
+              "alternativeText": "art3.png",
+              "caption": "art3.png",
+              "width": 354,
+              "height": 447,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/uploads/thumbnail_art3_73b88d5f4f.png",
+                  "hash": "thumbnail_art3_73b88d5f4f",
+                  "mime": "image/png",
+                  "name": "thumbnail_art3.png",
+                  "path": null,
+                  "size": 58.75,
+                  "width": 124,
+                  "height": 156
+                }
+              },
+              "hash": "art3_73b88d5f4f",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 374.79,
+              "url": "/uploads/art3_73b88d5f4f.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-10-30T12:37:12.951Z",
+              "updatedAt": "2022-10-30T12:37:12.951Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 9,
+      "attributes": {
+        "title": "FFFF",
+        "usd_price": 5,
+        "bdt_price": 500,
+        "art": {
+          "data": {
+            "id": 3,
+            "attributes": {
+              "name": "art3.png",
+              "alternativeText": "art3.png",
+              "caption": "art3.png",
+              "width": 354,
+              "height": 447,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/uploads/thumbnail_art3_73b88d5f4f.png",
+                  "hash": "thumbnail_art3_73b88d5f4f",
+                  "mime": "image/png",
+                  "name": "thumbnail_art3.png",
+                  "path": null,
+                  "size": 58.75,
+                  "width": 124,
+                  "height": 156
+                }
+              },
+              "hash": "art3_73b88d5f4f",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 374.79,
+              "url": "/uploads/art3_73b88d5f4f.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-10-30T12:37:12.951Z",
+              "updatedAt": "2022-10-30T12:37:12.951Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 10,
+      "attributes": {
+        "title": "FFFF",
+        "usd_price": 5,
+        "bdt_price": 500,
+        "art": {
+          "data": {
+            "id": 3,
+            "attributes": {
+              "name": "art3.png",
+              "alternativeText": "art3.png",
+              "caption": "art3.png",
+              "width": 354,
+              "height": 447,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/uploads/thumbnail_art3_73b88d5f4f.png",
+                  "hash": "thumbnail_art3_73b88d5f4f",
+                  "mime": "image/png",
+                  "name": "thumbnail_art3.png",
+                  "path": null,
+                  "size": 58.75,
+                  "width": 124,
+                  "height": 156
+                }
+              },
+              "hash": "art3_73b88d5f4f",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 374.79,
+              "url": "/uploads/art3_73b88d5f4f.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-10-30T12:37:12.951Z",
+              "updatedAt": "2022-10-30T12:37:12.951Z"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 100,
+      "pageCount": 1,
+      "total": 8
+    }
+  }
+}

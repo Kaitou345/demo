@@ -2,7 +2,7 @@
   margin-bottom: 300px;
   display: grid;
   place-content: center;
-
+  
 }
 
 .heading {
@@ -10,6 +10,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 2rem;
+  gap: 30vw;
 }
 
 .heading h1 {

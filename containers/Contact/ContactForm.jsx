@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../../styles/Contact/ContactForm.module.css";
-const ContactForm = () => {
+const ContactForm = ({ info }) => {
   return (
     <div className={styles.container}>
       <div className={styles.form}>

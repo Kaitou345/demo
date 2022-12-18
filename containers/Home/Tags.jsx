@@ -2,13 +2,12 @@ import React, { useState } from "react";
 import TagsGallery from "../../components/TagsGallery";
 import styles from "../../styles/Home/Tags.module.css";
 
-const Tags = () => {
+const Tags = ({ featuredPosts, latestPosts, trendingPosts }) => {
   const [tag, setTag] = useState("featured");
-
   return (
     <div className={styles.container}>
       <div className="">
-        <h2 className={styles.tagsText}>Trending Product</h2>
+        <h2 className={styles.tagsText}>Top Rated</h2>
       </div>
       <div className={styles.selection_container}>
         <button
@@ -43,9 +42,9 @@ const Tags = () => {
         </button>
       </div>
       <div className="">
-        {tag === "featured" ? <TagsGallery /> : null}
-        {tag === "latest" ? <TagsGallery /> : null}
-        {tag === "trending" ? <TagsGallery /> : null}
+        {tag === "featured" ? <TagsGallery posts={featuredPosts} /> : null}
+        {tag === "latest" ? <TagsGallery posts={latestPosts} /> : null}
+        {tag === "trending" ? <TagsGallery posts={trendingPosts} /> : null}
       </div>
     </div>
   );

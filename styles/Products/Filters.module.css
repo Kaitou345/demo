@@ -23,6 +23,7 @@
   font-weight: var(--weight-light);
   margin-left: 5px;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .category ul {
@@ -52,6 +53,25 @@
   padding-top: 15px;
 
 }
+
+.price_range {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem .5rem;
+}
+.price_range > input {
+  width: 70px;
+  height: 25px;
+  padding-left: 10px;
+  border: 1px solid rgba(66, 66, 66, .6) ;
+  border-radius: 2px;
+}
+
+.price_range > input:focus {
+  outline: none;
+}
+
 
 @media (max-width: 600px) {
   .container {

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../../styles/Contact/ContactInfo.module.css";
-const ContactInfo = () => {
+const ContactInfo = ({ info }) => {
   return (
     <div className={styles.container}>
       <div>
@@ -12,15 +12,13 @@ const ContactInfo = () => {
       <div className={styles.info}>
         <div className={styles.entry}>
           <span className={styles.title}>Address&nbsp;&nbsp;&nbsp;&nbsp;:</span>
-          <p className={styles.address}>
-            79-80 77th <br /> Rd Flushing, NY 11385
-          </p>
+          <p className={styles.address}>{info.Address}</p>
         </div>
         <div className={styles.entry}>
           <span className={styles.title}>Contacts&nbsp;&nbsp;:</span>
           <p className={styles.address}>
-            +088 193545454 <br />
-            zoeegal@gmail.com
+            {info.PhoneNumber} <br />
+            {info.Email}
           </p>
         </div>
       </div>

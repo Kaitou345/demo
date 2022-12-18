@@ -2,7 +2,14 @@ import React, { useState } from "react";
 import TagsGallery from "../../components/TagsGallery";
 import styles from "../../styles/Products/MainSection.module.css";
 import Filters from "./Filters";
-const MainSection = () => {
+
+const MainSection = ({
+  posts,
+  category,
+  setCategory,
+  setTag,
+  setPriceRange,
+}) => {
   const [toggle, setToggle] = useState(false);
   return (
     <div className={styles.container}>
@@ -10,10 +17,14 @@ const MainSection = () => {
         <h1>Products</h1>
         <div>
           <span className={styles.sort_heading}>Sort By&nbsp;:</span>
-          <select name="" id="">
+          <select onChange={(e) => setTag(e.target.value)} name="" id="">
+            <option value="" defaultChecked>
+              ...
+            </option>
+            <option value="latest">Latest</option>
+
             <option value="trending">Trending</option>
-            <option value="trending">Trending</option>
-            <option value="trending">Trending</option>
+            <option value="featured">Featured</option>
           </select>
         </div>
       </div>
@@ -24,9 +35,15 @@ const MainSection = () => {
         >
           {">"} Filters
         </button>
-        {toggle && <Filters />}
+        {toggle && (
+          <Filters
+            category={category}
+            setCategory={setCategory}
+            setPriceRange={setPriceRange}
+          />
+        )}
       </div>
-      <TagsGallery />
+      <TagsGallery posts={posts} />
     </div>
   );
 };

@@ -4,7 +4,11 @@ const nextConfig = {
   swcMinify: true,
 
   images: {
-    domains: ["powerful-crag-03533.herokuapp.com"],
+    domains: [
+      "res.cloudinary.com",
+      "strapi-aeud-production.up.railway.app",
+      "localhost",
+    ],
   },
 };
 
