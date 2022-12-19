@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../styles/Home/Footer.module.css";
 import Logo from "./Logo";
 import { FaFacebookSquare } from "react-icons/fa";
@@ -12,7 +12,18 @@ import {
   youtubeLink,
 } from "../constants/ social_links";
 
+import { baseUrl } from "../api/api";
+import { siteInfoQuery } from "../api/queries";
+
 const Footer = () => {
+  const [info, setInfo] = useState({});
+
+  useEffect(() => {
+    fetch(`${baseUrl}${siteInfoQuery}`)
+      .then((res) => res.json())
+      .then((data) => setInfo(data.data.attributes));
+  }, []);
+
   return (
     <div className={styles.container}>
       <div className={styles.upper}>
@@ -32,16 +43,32 @@ const Footer = () => {
           </Link>
         </div>
         <div className={styles.social_links}>
-          <a href={pinterestLink} target="_blank" rel="noreferrer">
+          <a
+            href={info?.pinterestLink ?? "https://www.pinterest.com"}
+            target="_blank"
+            rel="noreferrer"
+          >
             <BsPinterest />
           </a>
-          <a href={instagramLink} target="_blank" rel="noreferrer">
+          <a
+            href={info?.instagramLink ?? "https://www.instagram.com"}
+            target="_blank"
+            rel="noreferrer"
+          >
             <RiInstagramFill />
           </a>
-          <a href={facebookLink} target="_blank" rel="noreferrer">
+          <a
+            href={info?.facebookLink ?? "https://www.facebook.com"}
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaFacebookSquare />
           </a>
-          <a href={youtubeLink} target="_blank" rel="noreferrer">
+          <a
+            href={info?.youtubeLink ?? "https://www.youtube.com"}
+            target="_blank"
+            rel="noreferrer"
+          >
             <BsYoutube />
           </a>
         </div>

@@ -41,10 +41,6 @@ const Products = ({ posts }) => {
     }
   }, [tag]);
 
-  useEffect(() => {
-    console.log(priceRange);
-  }, [priceRange]);
-
   function priceRangeFilter(posts) {
     if (priceRange.min === priceRange.max && priceRange.min === 0) return posts;
 

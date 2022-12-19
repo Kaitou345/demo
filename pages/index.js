@@ -9,7 +9,6 @@ import { api, baseUrl } from "../api/api";
 import { siteInfoQuery, tagsQuery } from "../api/queries";
 
 export default function Home({ posts, info }) {
-  console.log(posts);
   const latestPosts = posts.slice(0, 6);
   const featuredPosts = posts
     .filter((post) => post.attributes.featured)
@@ -17,8 +16,6 @@ export default function Home({ posts, info }) {
   const trendingPosts = posts
     .filter((post) => post.attributes.trending)
     .slice(0, 6);
-
-  console.log(posts[0].attributes.art);
 
   return (
     <div>
